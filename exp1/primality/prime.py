@@ -6,7 +6,8 @@ class palin(unittest.TestCase):
         # Non-prime numbers
         assert prime(4) == False, "4 is not a prime"
     def test_for_0s_1s(self):
-        assert prime(0) == False, "not a prime"
+        assert prime(
+            0) == False, "not a prime"
         assert prime(1) == False, "not a prime"
     def test_for_prime(self):
         # Prime numbers
